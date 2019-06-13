@@ -1,0 +1,169 @@
+/* RESET CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.header {
+  min-width: 1024px;
+  background-color: #20232a;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #61dafb;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.nav {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.nav-list {
+  font-size: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+.nav-list-item a {
+  padding: 0 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.search-box {
+  padding: 5px;
+  width: 180px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.header-link-list {
+  float: right;
+  font-size: 0;
+}
+
+.header-link-item {
+  display: inline-block;
+}
+
+.header-link-item a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+/* HERO */
+.main-hero {
+  background-color: #282c34;
+}
+
+.hero-container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-heading {
+  color: #61dafb;
+  font-size: 60px;
+}
+
+.hero-body {
+  color: #fff;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.hero-link-list {
+  margin-top: 50px;
+}
+
+.hero-link-item {
+  display: inline-block;
+}
+
+.hero-link-item a {
+  padding: 15px 25px;
+}
+
+.hero-link-item:nth-child(1) a {
+  background-color: #61dafb;
+}
+
+.hero-link-item:nth-child(2) a {
+  color: #61dafb;
+}
+
+.hero-link-item:nth-child(2) a::after {
+  content: " >";
+}
+
+.concept {
+  padding: 100px 0;
+}
+
+.concept-heading {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+.concept-item {
+  width: 380px;
+  float: left;
+  margin-left: 40px;
+}
+
+.concept::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.concept-item:nth-child(1) {
+  margin-left: 0;
+}
+
+.concept-item-heading {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.concept-item-body {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
